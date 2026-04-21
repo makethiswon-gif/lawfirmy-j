@@ -118,12 +118,12 @@ export default function Home() {
           </ScrollReveal>
           <div className={styles.profGrid}>
             {[
-              { name: '김정웅', title: '대표변호사', img: null, spec: '민사 · 형사 · 기업법무' },
-              { name: '장병우', title: '대표변호사', img: '/images/profiles/대표변호사-장병우-프로필(사진파일).jpg', spec: '건설·부동산 · 민사 · 행정' },
-              { name: '양영희', title: '대표변호사', img: '/images/profiles/대표변호사-양영희-프로필(사진파일).jpg', spec: '기업법무 · 민사 · 가사' },
+              { name: '양영희', title: '대표변호사', img: '/images/profiles/대표변호사-양영희-프로필(사진파일).jpg', spec: '기업법무 · 민사 · 가사', id: 'young-hee-yang' },
+              { name: '장병우', title: '대표변호사', img: '/images/profiles/대표변호사-장병우-프로필(사진파일).jpg', spec: '건설·부동산 · 민사 · 행정', id: 'byung-woo-jang' },
+              { name: '김정웅', title: '대표변호사', img: null, spec: '민사 · 형사 · 기업법무', id: 'jung-woong-kim' },
             ].map((lawyer, idx) => (
               <ScrollReveal key={lawyer.name} delay={idx * 0.15} distance={40}>
-                <Link href="/professionals" className={styles.profCard}>
+                <Link href={`/professionals/${lawyer.id}`} className={styles.profCard}>
                   <div className={styles.profImg}>
                     {lawyer.img ? (
                       <Image src={lawyer.img} alt={lawyer.name} fill style={{ objectFit: 'cover', objectPosition: 'top' }} />
