@@ -1,0 +1,72 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (716,11)<a class='Header-module__lnUIdW__topPill' href='/contact'>법률상담 />
+[1] (757,11)<a class='Header-module__lnUIdW__topLink' href='/locations'>오시는길 />
+[2] (792,11)<span >KOREAN />
+[3] (277,47)<a class='Header-module__lnUIdW__logo' href='/' />
+	[4] (202,47)<span >◈ />
+	[5] (287,47)<div  />
+		[6] (287,42)<span >YANGYOUNG & JEONGHUN />
+		[7] (287,54)<span >법무법인 양영&정훈 />
+[8] (470,47)<a class='Header-module__lnUIdW__navItem ' href='/about'>법인소개 />
+[9] (521,47)<a class='Header-module__lnUIdW__navItem Header-module__lnUIdW__active' href='/practice-areas'>업무분야 />
+[10] (569,47)<a class='Header-module__lnUIdW__navItem ' href='/professionals'>구성원 />
+[11] (618,47)<a class='Header-module__lnUIdW__navItem ' href='/news'>소식/자료 />
+[12] (672,47)<a class='Header-module__lnUIdW__navItem ' href='/locations'>오시는 길 />
+[13] (795,47)<button aria-label='검색' class='Header-module__lnUIdW__searchBtn' />
+[14] (205,105)<a href='/'>HOME />
+›
+업무분야
+업무분야
+법무법인 양영&정훈은 다양한 법률 분야에서 풍부한 경험과 전문성을 바탕으로
+최적의 법률 솔루션을 제공합니다.
+[15] (292,387)<div  />
+	[16] (292,354)<div >⚖️ />
+	[17] (292,396)<h3 >민사소송 />
+	[18] (292,426)<p >계약, 손해배상, 채권추심 등 각종 민사분쟁에 대한 전문적인 법률 서비스를 제공합니다. />
+[19] (500,387)<div  />
+	[20] (500,354)<div >🔒 />
+	[21] (500,396)<h3 >형사사건 />
+	[22] (500,426)<p >수사 단계에서 재판까지, 의뢰인의 권리를 최대한 보호하는 형사 변호 서비스를 제공합니다. />
+[23] (708,387)<div  />
+	[24] (708,354)<div >🏠 />
+	[25] (708,396)<h3 >가사사건 />
+	[26] (708,426)<p >이혼, 양육권, 상속, 재산 분할 등 가정 관련 법률 문제를 세심하게 처리합니다. />
+[27] (292,562)<div  />
+	[28] (292,529)<div >🏗️ />
+	[29] (292,571)<h3 >건설·부동산 />
+	[30] (292,601)<p >건설 관련 분쟁, 부동산 거래, 등기, 재개발·재건축 등 전반적인 법률 자문을 수행합니다. />
+[31] (500,562)<div  />
+	[32] (500,529)<div >💼 />
+	[33] (500,571)<h3 >기업법무 />
+	[34] (500,601)<p >기업 설립부터 경영 자문, M&A, 계약 검토까지 기업의 모든 법률 문제를 지원합니다. />
+[35] (708,562)<div  />
+	[36] (708,529)<div >🏛️ />
+	[37] (708,571)<h3 >행정소송 />
+	[38] (708,601)<p >행정처분 취소, 면허 관련 소송, 국가배상 청구 등 행정 분야의 전문 자문을 제공합니다. />
+[39] (292,737)<div  />
+	[40] (292,704)<div >🚗 />
+	[41] (292,745)<h3 >교통사고 />
+	[42] (292,776)<p >교통사고 피해 보상, 과실비율 분석, 보험금 청구 등에 대한 전문적인 법률 서비스를 제공합니다. />
+[43] (500,737)<div  />
+	[44] (500,704)<div >📋 />
+	[45] (500,745)<h3 >노동/산재 />
+	[46] (500,776)<p >부당해고, 임금체불, 산업재해 보상 등 근로자와 사업주 양측의 권익을 보호합니다. />
+[47] (708,737)<div  />
+	[48] (708,704)<div >🏥 />
+	[49] (708,745)<h3 >의료소송 />
+	[50] (708,776)<p >의료과오, 의료분쟁 조정, 손해배상 등 의료 관련 전문 법률 서비스를 제공합니다. />
+[51] (364,924)<div  />
+	[52] (319,924)<div  />
+	[53] (392,924)<div  />
+		[54] (392,915)<h3 >CONTACT US />
+		[55] (392,933)<p >궁금한 점이 있으신가요? />
+[56] (610,924)<div  />
+	[57] (539,924)<div  />
+	[58] (638,924)<div  />
+		[59] (638,915)<h3 >NEWSLETTER />
+		[60] (638,933)<p >월간 발행되는 다양한 소식을 받아보세요 />
+
+</current_dom>

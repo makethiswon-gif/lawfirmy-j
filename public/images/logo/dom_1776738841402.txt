@@ -1,0 +1,89 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (242,34)<a alt='법무법인(유한) 바른 로고이미지' href='/' />
+[1] (728,14)<a class='rfp-header' href='/rfp-apply/0'>법률상담 />
+[2] (765,14)<a href='/intro/location'>오시는길 />
+[3] (803,14)<li >korean />
+[4] (428,48)<a href='/intro/barun'>바른소개 />
+[5] (483,48)<a href='/category/F'>업무분야 />
+[6] (535,48)<a href='/member/search'>구성원 />
+[7] (587,48)<a href='/barunnews/S'>소식/자료 />
+[8] (644,48)<a href='/academy/R/A'>아카데미 />
+[9] (699,48)<a href='/outreach/activity'>공익활동 />
+[10] (754,48)<a href='/recruit/guide'>인재채용 />
+[11] (807,50)<fieldset  />
+	[12] (805,50)<label class='i_search' />
+바른뉴스
+최근업무사례
+언론보도
+바른뉴스
+바른뉴스
+정재희 변호사, 한국조세재정연구원 '포괄적 증여세 과세제도 개선방안' 연구용역 완료
+정재희 변호사는 2026년 3월 한국조세재정연구원의 '포괄적 증여세 과세제도 개선방안'에 관한 연구용역을 완료했습니다.
+2026. 04. 15
+[13] (282,129)<a class='item' href='/barunnews/S/55689'>바른뉴스
+2026. 04. 15 />
+	바른뉴스
+	[14] (282,96)<h4 >손흥수 변호사, 한국민사집행법학회 학술지에 '준공인가를 받지 못해 장기간 이전고시가 되지 않은 도정법상 재건축아파트에 대한 경매의 가부' 등재 />
+	[15] (282,151)<div >손흥수 변호사는 한국민사집행법학회가 발간하는 등재학술지 민사집행법연구 제22권에 '준공인가를 받지 못해 장기간 이전고시가 되지 않은 도정법상 재건축아파트에 대한 경매의 가부'라는 제목의 논문을 발표했습니다.위 논문은 한국민사집행법학회 2025년 추계학술대회 제1주제 발표문을 수정보완한 것으로, 손흥수 변호사가 직접 수행해 대법원에서 승소 확정된 사건을 토대로 작성됐습니다. />
+	2026. 04. 15
+	[16] (282,208)<div  />
+		[17] (350,208)<div  />
+			[18] (350,208)<img  />
+[19] (500,129)<a class='item' href='/barunnews/S/55693'>바른뉴스
+2026. 04. 15 />
+	바른뉴스
+	[20] (500,96)<h4 >손흥수 변호사, 2026년 1학기 고려대학교 법무대학원에서 '민사집행법일반이론' 강의 />
+	[21] (500,151)<div >손흥수 변호사는 2026년 1학기 115명의 수강생을 대상으로 민사집행법일반이론 강의를 시작했습니다. 수강생들은 법원 직원, 관계 회사의 법무팀 직원, 변호사, 법무사 등 주로 관련 분야 현업 종사자들입니다.강의는 출간 예정인 손 변호사의 저서 『민사집행의 실무 부동산경매(상),(하), 한국사법행정학회(2026)』를 교재로, 제1강 경매대상적격의 문제, 제2, 3, 4강 부동산경매절차상의 쟁점, 제5, 6강 부동산배당실무, 제7강 경매와 임대차, 제8강 경매와 유치권 순으로 진행됩니다. />
+	2026. 04. 15
+	[22] (500,208)<div  />
+		[23] (568,208)<div  />
+			[24] (568,208)<img  />
+[25] (718,129)<a class='item' href='/barunnews/S/55697'>바른뉴스
+2026. 04. 15 />
+	바른뉴스
+	[26] (718,96)<h4 >조재빈 변호사, 서울대학교 기업투자 심사역 모임 SEBI회 대상 'M&A와 기업범죄' 강의 />
+	[27] (718,151)<div >조재빈 변호사는 2026년 4월 21일 바른빌딩 15층 대강당에서 서울대학교 기업투자 심사역 모임 SEBI회를 대상으로 'M&amp;A와 기업범죄' 강의를 진행할 예정입니다. />
+	2026. 04. 15
+	[28] (718,208)<div  />
+		[29] (786,208)<div  />
+			[30] (786,208)<img  />
+바른뉴스
+조재빈 변호사, 국회 '디지털자산 범죄의 진화와 금융시장 대응 전략을 위한 학술 컨퍼런스' 토론자로 참여
+조재빈 변호사는 2026년 4월 22일 국회의원회관에서 열릴 '디지털자산 범죄의 진화와 금융시장 대응 전략을 위한 학술 컨퍼런스'에 토론자로 참여할 예정입니다.
+2026. 04. 15
+[31] (158,144)<button class='owl-prev' role='presentation' />
+	[32] (158,144)<span  />
+[33] (842,144)<button class='owl-next' role='presentation' />
+	[34] (842,144)<span  />
+[35] (495,272)<button class='owl-dot active' role='button' />
+[36] (505,272)<button class='owl-dot' role='button' />
+뉴스레터
+[37] (193,728)<a class='main-more-btn' href='/barunnews/N'>+ 더보기 />
+[38] (661,697)<a class='item' href='/letter/155/newsletter155.html' />
+	[39] (537,686)<span >2026. April />
+	[40] (661,705)<p >법무법인(유한) 바른 뉴스레터 - 제155호 (2026.04) />
+[41] (661,770)<a class='item' href='/letter/154/newsletter154.html' />
+	[42] (541,759)<span >2026. March />
+	[43] (661,778)<p >법무법인(유한) 바른 뉴스레터 - 제154호 (2026.03) />
+[44] (228,893)<a class='logo_gray' />
+[45] (738,893)<a href='https://blog.naver.com/barunlaw7' />
+	[46] (738,893)<img  />
+[47] (762,893)<a href='https://www.youtube.com/channel/UCPoEv1uktQY2sshFqf8mzzQ' />
+	[48] (762,893)<img  />
+[49] (787,893)<a href='http://pf.kakao.com/_UJxdmxj' />
+	[50] (787,893)<img  />
+[51] (812,893)<a href='https://kr.linkedin.com/company/barun-law?trk=public_post_feed-actor-image' />
+	[52] (812,893)<img  />
+[53] (199,928)<a href='/notice'>면책공고 />
+[54] (259,928)<a href='/privacy'>개인정보처리방침 />
+[55] (325,928)<a href='/sitemap'>사이트맵 />
+[56] (377,928)<a href='/rfp-apply/0'>법률상담 />
+[57] (439,928)<a href='/brochure/ko.pdf'>온라인 브로슈어 />
+[58] (503,928)<a href='/intro/location'>오시는 길 />
+[59] (777,928)<a href='#'>광고책임변호사 : 김도형 />
+Copyright. Barun Law LLC. All rights reserved.
+
+</current_dom>

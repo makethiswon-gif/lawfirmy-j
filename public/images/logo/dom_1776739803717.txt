@@ -1,0 +1,56 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (217,25)<a href='/' />
+	[1] (217,25)<span >양영&정훈 />
+[2] (415,24)<a href='/about'>법인 소개 />
+[3] (471,24)<a href='/professionals'>구성원 />
+[4] (527,24)<a href='/practice-areas'>업무 분야 />
+[5] (588,24)<a href='/locations'>오시는 길 />
+[6] (785,25)<a class='Header-module__lnUIdW__contactBtn' href='/contact'>상담 문의 />
+양영희
+대표변호사
+[7] (231,179)<a class='page-module___8aEwW__profLink' href='/professionals'>프로필 보기 → />
+장병우
+대표변호사
+[8] (443,179)<a class='page-module___8aEwW__profLink' href='/professionals'>프로필 보기 → />
+김정웅
+김정웅
+대표변호사
+[9] (655,179)<a class='page-module___8aEwW__profLink' href='/professionals'>프로필 보기 → />
+Our Network
+광주와 전남 전역에서 양영&정훈을 만나보실 수 있습니다.
+🏛️
+광주 본사
+광주광역시 동구 지산로 73
+TEL 062-223-7877
+📍
+장흥 사무소
+전남 장흥군 장흥읍 읍성로 130
+TEL 061-864-6523
+📍
+순천 사무소
+전남 순천시 왕지로 8-1
+TEL 061-727-6523
+📍
+고흥 사무소
+전남 고흥군 고흥읍 흥양길 35
+TEL 061-835-6523
+법무법인 양영&정훈
+대표변호사: 김정웅, 장병우, 양영희
+사업자등록번호: 372-87-00283
+광주사무소(본사) : (61445) 광주광역시 동구 지산로 73, 1층 및 5층(지산동, 동명빌딩)
+TEL: 062-223-7877 | FAX: 062-222-7877 | E-MAIL: junghoon6523@naver.com
+운영시간: 월~금 09:00 - 18:00 (12:00 - 13:00 휴게시간) / 토, 일 정기휴무
+장흥사무소
+: 전남 장흥군 장흥읍 읍성로 130 2층 (TEL: 061-864-6523)
+순천사무소
+: 전남 순천시 왕지로 8-1 5층 (TEL: 061-727-6523)
+고흥사무소
+: 전남 고흥군 고흥읍 흥양길 35 3층 (TEL: 061-835-6523)
+©
+2026
+Law Firm Yang-young & Jeong-hoon. All Rights Reserved.
+
+</current_dom>

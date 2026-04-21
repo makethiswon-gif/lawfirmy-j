@@ -1,0 +1,97 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (716,11)<a class='Header-module__lnUIdW__topPill' href='/contact'>법률상담 />
+[1] (757,11)<a class='Header-module__lnUIdW__topLink' href='/locations'>오시는길 />
+[2] (792,11)<span >KOREAN />
+[3] (277,47)<a class='Header-module__lnUIdW__logo' href='/' />
+	[4] (202,47)<span >◈ />
+	[5] (287,47)<div  />
+		[6] (287,42)<span >YANGYOUNG & JEONGHUN />
+		[7] (287,54)<span >법무법인 양영&정훈 />
+[8] (470,47)<a class='Header-module__lnUIdW__navItem ' href='/about'>법인소개 />
+[9] (521,47)<a class='Header-module__lnUIdW__navItem ' href='/practice-areas'>업무분야 />
+[10] (569,47)<a class='Header-module__lnUIdW__navItem ' href='/professionals'>구성원 />
+[11] (618,47)<a class='Header-module__lnUIdW__navItem Header-module__lnUIdW__active' href='/news'>소식/자료 />
+[12] (672,47)<a class='Header-module__lnUIdW__navItem ' href='/locations'>오시는 길 />
+[13] (795,47)<button aria-label='검색' class='Header-module__lnUIdW__searchBtn' />
+[14] (205,105)<a href='/'>HOME />
+›
+소식/자료
+소식/자료
+[15] (218,227)<button class='page-module__MkhXSa__tab page-module__MkhXSa__tabActive'>전체 />
+[16] (271,227)<button class='page-module__MkhXSa__tab'>바른뉴스 />
+[17] (339,227)<button class='page-module__MkhXSa__tab'>최근업무사례 />
+[18] (408,227)<button class='page-module__MkhXSa__tab'>언론보도 />
+[19] (500,280)<article  />
+	[20] (238,280)<div  />
+		[21] (214,270)<span >바른뉴스 />
+		[22] (238,291)<span >2024. 04. 15 />
+	[23] (554,280)<div  />
+		[24] (554,269)<h3 >김정웅 대표변호사, 중대재해처벌법 대응 실무 특강 진행 />
+		[25] (554,289)<p >김정웅 대표변호사는 광주지역 상공인을 대상으로 중대재해처벌법의 주요 쟁점과 기업의 실무 대응 전략에 대한 심도 있는 특강을 진행했습니다. />
+[26] (500,352)<article  />
+	[27] (238,351)<div  />
+		[28] (214,342)<span >바른뉴스 />
+		[29] (238,362)<span >2024. 04. 10 />
+	[30] (554,351)<div  />
+		[31] (554,341)<h3 >장병우 대표변호사, 건설·부동산 분쟁 주요 승소사례 />
+		[32] (554,361)<p >장병우 대표변호사는 최근 쟁점이 된 건설/부동산 관련 법적 분쟁에서 탁월한 법리 해석으로 승소 판결을 이끌어냈습니다. />
+[33] (500,423)<article  />
+	[34] (238,423)<div  />
+		[35] (214,413)<span >언론보도 />
+		[36] (238,434)<span >2024. 04. 05 />
+	[37] (554,423)<div  />
+		[38] (554,413)<h3 >양영희 대표변호사, 기업 법무와 리스크 관리 전략 인터뷰 />
+		[39] (554,433)<p >양영희 대표변호사는 지역 주요 언론사와의 인터뷰에서 기업들의 경영 안착을 위한 법률 리스크 관리 방안을 역설했습니다. />
+[40] (500,495)<article  />
+	[41] (238,495)<div  />
+		[42] (220,485)<span >최근업무사례 />
+		[43] (238,506)<span >2024. 03. 28 />
+	[44] (554,495)<div  />
+		[45] (554,484)<h3 >복잡한 상속 분쟁 사건에서 의뢰인 측 전면 승소 />
+		[46] (554,504)<p >다수의 상속인이 관여된 복잡한 상속재산 분할 사건에서 의뢰인의 권리를 온전히 보호하는 판결을 이끌어냈습니다. />
+[47] (500,567)<article  />
+	[48] (238,566)<div  />
+		[49] (214,557)<span >바른뉴스 />
+		[50] (238,577)<span >2024. 03. 20 />
+	[51] (554,566)<div  />
+		[52] (554,556)<h3 >법무법인 양영&정훈, 순천사무소 확장 이전 안내 />
+		[53] (554,576)<p >보다 넓고 쾌적한 환경에서 의뢰인분들을 모시고자 순천사무소를 확장 이전하였습니다. />
+[54] (500,638)<article  />
+	[55] (238,638)<div  />
+		[56] (214,629)<span >언론보도 />
+		[57] (238,649)<span >2024. 03. 15 />
+	[58] (554,638)<div  />
+		[59] (554,628)<h3 >곽현준 변호사, 지역 법률 구조 활동 선정 />
+		[60] (554,648)<p >곽현준 변호사가 전남 지역 취약계층을 위한 법률 구조 활동에 적극 참여하여 지역사회로부터 감사패를 수여받았습니다. />
+[61] (451,718)<button class='page-module__MkhXSa__pageBtn'>‹ />
+[62] (475,718)<button class='page-module__MkhXSa__pageBtn page-module__MkhXSa__pageBtnActive'>1 />
+[63] (500,718)<button class='page-module__MkhXSa__pageBtn'>2 />
+[64] (525,718)<button class='page-module__MkhXSa__pageBtn'>3 />
+[65] (549,718)<button class='page-module__MkhXSa__pageBtn'>› />
+[66] (364,838)<div  />
+	[67] (319,838)<div  />
+	[68] (392,838)<div  />
+		[69] (392,830)<h3 >CONTACT US />
+		[70] (392,847)<p >궁금한 점이 있으신가요? />
+[71] (610,838)<div  />
+	[72] (539,838)<div  />
+	[73] (638,838)<div  />
+		[74] (638,830)<h3 >NEWSLETTER />
+		[75] (638,847)<p >월간 발행되는 다양한 소식을 받아보세요 />
+◈
+YANGYOUNG & JEONGHUN
+[76] (725,933)<span >B />
+[77] (749,933)<span >Y />
+[78] (772,933)<span >C />
+[79] (796,933)<span >in />
+[80] (208,979)<a href='/about'>면책공고 />
+[81] (259,979)<a href='/about' />
+	[82] (259,979)<strong >개인정보처리방침 />
+[83] (311,979)<a href='/locations'>사이트맵 />
+[84] (350,979)<a href='/contact'>법률상담 />
+[85] (389,979)<a href='/locations'>오시는 길 />
+
+</current_dom>

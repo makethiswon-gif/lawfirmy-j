@@ -1,0 +1,41 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (716,11)<a class='Header-module__lnUIdW__topPill' href='/contact'>법률상담 />
+[1] (757,11)<a class='Header-module__lnUIdW__topLink' href='/locations'>오시는길 />
+[2] (792,11)<span >KOREAN />
+[3] (277,47)<a class='Header-module__lnUIdW__logo' href='/' />
+	[4] (202,47)<span >◈ />
+	[5] (287,47)<div  />
+		[6] (287,42)<span >YANGYOUNG & JEONGHUN />
+		[7] (287,54)<span >법무법인 양영&정훈 />
+[8] (470,47)<a class='Header-module__lnUIdW__navItem Header-module__lnUIdW__active' href='/about'>법인소개 />
+[9] (521,47)<a class='Header-module__lnUIdW__navItem ' href='/practice-areas'>업무분야 />
+[10] (569,47)<a class='Header-module__lnUIdW__navItem ' href='/professionals'>구성원 />
+[11] (618,47)<a class='Header-module__lnUIdW__navItem ' href='/news'>소식/자료 />
+[12] (672,47)<a class='Header-module__lnUIdW__navItem ' href='/locations'>오시는 길 />
+[13] (795,47)<button aria-label='검색' class='Header-module__lnUIdW__searchBtn' />
+[14] (205,105)<a href='/'>HOME />
+›
+법인소개
+법인소개
+인사말
+법무법인 양영&정훈은 광주와 전남 지역의 든든한 법률 파트너로서,
+고객의 권리와 이익을 최우선으로 생각합니다.
+저희는 각 분야의 전문 변호사들이 하나의 팀을 이루어, 복잡한 법률 문제에 대해 최적의 솔루션을 제공합니다. 다년간의 경험과 축적된 노하우를 바탕으로 민사, 형사, 가사, 행정, 기업법무 등 폭넓은 영역에서 탁월한 성과를 거두어왔습니다.
+광주 본사를 거점으로 장흥, 순천, 고흥까지 전남 주요 지역에 네트워크를 구축하여 지역 사회에 밀착된 신속하고 정확한 법률 서비스를 제공하고 있습니다. 앞으로도 변함없는 신뢰와 헌신으로 의뢰인의 가장 든든한 조력자가 되겠습니다.
+대표변호사 김정웅 · 장병우 · 양영희
+비전과 철학
+⚖️
+정의와 공정
+법의 정의를 실현하고, 모든 의뢰인에게 공정한 법률 서비스를 제공합니다.
+🤝
+신뢰와 소통
+투명한 업무 진행과 긴밀한 소통을 통해 깊은 신뢰 관계를 구축합니다.
+📚
+전문성과 혁신
+끊임없는 연구와 학습을 통해 최신 법률 트렌드를 선도합니다.
+사무실 안내
+
+</current_dom>

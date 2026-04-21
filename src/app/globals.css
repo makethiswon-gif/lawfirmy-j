@@ -1,49 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ===== 광주(빛고을) 브랜딩 컬러 팔레트 ===== */
+  /* 먹(墨) - 캘리그래피 로고에서 추출 */
+  --color-ink: #2a2723;
+  --color-ink-light: #4a4640;
+
+  /* 주홍(朱紅) - 낙관 도장에서 추출 */
+  --color-vermillion: #c23b22;
+  --color-vermillion-muted: #a8462e;
+
+  /* 빛고을 - 따뜻한 빛의 골드 */
+  --color-light-gold: #c9a14e;
+  --color-light-warm: #e8d5a3;
+
+  /* 무등산 - 깊은 자연의 녹색 */
+  --color-forest: #3a5a40;
+  --color-forest-light: #588157;
+
+  /* 한지(韓紙) - 따뜻한 배경 */
+  --color-hanji: #f7f3ec;
+  --color-hanji-deep: #ede6d8;
+  --color-warm-white: #faf9f6;
+
+  /* 텍스트 */
+  --color-text: #333;
+  --color-text-light: #666;
+  --color-text-muted: #999;
+  --color-white: #fff;
+  --color-border: #e0ddd6;
+
+  /* 타이포그래피 */
+  --font-sans: 'Noto Sans KR', -apple-system, sans-serif;
+  --font-serif: 'Noto Serif KR', Georgia, serif;
+
+  /* 레이아웃 */
+  --header-height: 80px;
+  --max-width: 1200px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  height: 100%;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: var(--color-warm-white);
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+ul, ol { list-style: none; }
+button { font-family: var(--font-sans); cursor: pointer; border: none; outline: none; }
+input, select, textarea { font-family: var(--font-sans); outline: none; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 30px;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
 }

@@ -1,0 +1,59 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (242,34)<a alt='법무법인(유한) 바른 로고이미지' href='/' />
+[1] (728,14)<a class='rfp-header' href='/rfp-apply/0'>법률상담 />
+[2] (765,14)<a href='/intro/location'>오시는길 />
+[3] (803,14)<li >korean />
+[4] (428,48)<a href='/intro/barun'>바른소개 />
+[5] (483,48)<a href='/category/F'>업무분야 />
+[6] (535,48)<a href='/member/search'>구성원 />
+[7] (587,48)<a href='/barunnews/S'>소식/자료 />
+[8] (644,48)<a href='/academy/R/A'>아카데미 />
+[9] (699,48)<a href='/outreach/activity'>공익활동 />
+[10] (754,48)<a href='/recruit/guide'>인재채용 />
+[11] (807,50)<fieldset  />
+	[12] (805,50)<label class='i_search' />
+[13] (195,86)<li  />
+	[14] (194,86)<a href='/' />
+[15] (242,86)<li >바른소개 />
+[16] (305,86)<li >법인소개 />
+법인소개
+송무의 강자
+법무법인(유한) 바른은 1998년 창립된 이래 눈부신 속도로 성장하여 현재는 자타가 공인하는 '송무강자'라는 명성은 물론 '전문분야 기업자문역량 확대'라는 세평으로 한국을 대표하는 대형로펌으로 평가받고 있습니다. 법무법인(유한) 바른의 이러한 성장과 발전은 전문인력의 지속적인 충원, 구성원 변호사의 높은 업무 관여도, 전문조직 강화, 바른의 법률서비스를 경험한 고객들의 전폭적인 신뢰가 바탕이 되었습니다.
+혁신적인 법률서비스
+법무법인(유한) 바른은 오랜 재조 경력을 가진 실력 있고 명망 있는 변호사들을 지속적으로 영입해 완성도 높은 서비스를 제공함으로써 소송 관련 법률서비스 분야에서 고객들로부터 깊은 신뢰를 쌓아 왔습니다. 이러한 소송 관련 법률서비스의 경쟁력을 바탕으로 분쟁의 예방을 비롯한 각종 기업자문업무 분야에서도 괄목할 만한 성장을 이루었습니다. 바른은 급변하는 법률시장의 흐름에 한발 앞서 혁신적인 종합 법률서비스를 제공하며 고객만족에 최선을 다하고 있습니다.
+새로운 로펌의 미래
+'4차 산업혁명'의 새로운 패러다임이 형성되고 있는 우리 사회의 급격한 변화에 맞추어 법무법인(유한) 바른은 고유한 지식과 정보를 축적하고 융합시켜 차별화된 법률서비스를 제공할 수 있는 시스템 구축에 앞장서는 등 새로운 로펌의 미래를 설계하고 있습니다. 지금까지는 고객이 직면한 문제를 해결하기 위한 역할에 집중되었던 로펌의 업무가 고객에 미치는 법률적 리스크 등을 사전에 체크하여 자문하는 형태로 변경되고 있고, 이러한 분야에서 법무법인(유한) 바른은 법률시장을 선도하고 있습니다.
+바른 길을 가는 든든한 파트너
+고객을 위해 최선을 다하는 '바른' 변호사가 모인 법무법인(유한) 바른은 전문적이고 수준 높은 법률서비스를 제공하며 늘 초심을 잃지 않고 바른 길을 가는 든든한 파트너가 되겠습니다. 법무법인(유한) 바른을 찾아오십시오. 현명한 선택이 될 것입니다.
+[17] (331,679)<a href='/rfp-apply/0' />
+	[18] (219,683)<p >궁금한 점이 있으신가요? />
+		[19] (217,673)<span >contact us />
+	[20] (457,679)<div  />
+		[21] (457,679)<img  />
+[22] (669,679)<a href='/barunnews/N' />
+	[23] (583,683)<p >월간 발행되는 다양한 소식을 받아보세요 />
+		[24] (556,673)<span >newsletter />
+	[25] (794,679)<div  />
+		[26] (794,679)<img  />
+[27] (228,766)<a class='logo_gray' />
+[28] (738,766)<a href='https://blog.naver.com/barunlaw7' />
+	[29] (738,766)<img  />
+[30] (762,766)<a href='https://www.youtube.com/channel/UCPoEv1uktQY2sshFqf8mzzQ' />
+	[31] (762,766)<img  />
+[32] (787,766)<a href='http://pf.kakao.com/_UJxdmxj' />
+	[33] (787,766)<img  />
+[34] (812,766)<a href='https://kr.linkedin.com/company/barun-law?trk=public_post_feed-actor-image' />
+	[35] (812,766)<img  />
+[36] (199,801)<a href='/notice'>면책공고 />
+[37] (259,801)<a href='/privacy'>개인정보처리방침 />
+[38] (325,801)<a href='/sitemap'>사이트맵 />
+[39] (377,801)<a href='/rfp-apply/0'>법률상담 />
+[40] (439,801)<a href='/brochure/ko.pdf'>온라인 브로슈어 />
+[41] (503,801)<a href='/intro/location'>오시는 길 />
+[42] (777,801)<a href='#'>광고책임변호사 : 김도형 />
+Copyright. Barun Law LLC. All rights reserved.
+
+</current_dom>

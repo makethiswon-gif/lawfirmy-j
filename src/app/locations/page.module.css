@@ -1,0 +1,71 @@
+.locationsSection {
+  padding: 60px 0 80px;
+  background: var(--color-warm-white);
+}
+
+.officeBlock {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.officeBlock:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.officeHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.officeHeader h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.mainBadge {
+  display: inline-block;
+  background: var(--color-vermillion);
+  color: white;
+  padding: 3px 14px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.officeBody {
+  display: flex;
+  gap: 40px;
+}
+
+.officeMap {
+  flex: 1;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.officeInfo { width: 400px; flex-shrink: 0; }
+
+.infoRow {
+  display: flex;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-hanji);
+  font-size: 0.95rem;
+}
+
+.infoLabel {
+  width: 80px;
+  font-weight: 600;
+  color: var(--color-ink);
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .officeBody { flex-direction: column; }
+  .officeInfo { width: 100%; }
+}
