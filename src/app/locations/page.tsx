@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import inner from '../inner.module.css';
 import styles from './page.module.css';
+import KakaoMap from '@/components/KakaoMap';
 
 export const metadata = {
   title: '오시는 길 | 법무법인 양영&정훈',
@@ -65,15 +66,7 @@ export default function LocationsPage() {
               </div>
               <div className={styles.officeBody}>
                 <div className={styles.officeMap}>
-                  <iframe
-                    src={`https://maps.google.com/maps?q=${encodeURIComponent(office.mapQuery)}&t=&z=16&ie=UTF8&iwloc=&output=embed`}
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    title={office.name}
-                  />
+                  <KakaoMap address={office.address} name={office.name} />
                 </div>
                 <div className={styles.officeInfo}>
                   <div className={styles.infoRow}>
