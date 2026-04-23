@@ -39,6 +39,7 @@ export default function Header() {
           <Link href="/practice-areas" className={`${styles.navItem} ${pathname === '/practice-areas' ? styles.active : ''}`}>업무분야</Link>
           <Link href="/professionals" className={`${styles.navItem} ${pathname === '/professionals' ? styles.active : ''}`}>구성원</Link>
           <Link href="/news" className={`${styles.navItem} ${pathname === '/news' ? styles.active : ''}`}>소식/자료</Link>
+          <Link href="/columns" className={`${styles.navItem} ${pathname.startsWith('/columns') ? styles.active : ''}`}>정훈컬럼</Link>
           <Link href="/locations" className={`${styles.navItem} ${pathname === '/locations' ? styles.active : ''}`}>오시는 길</Link>
         </nav>
 
@@ -58,6 +59,7 @@ export default function Header() {
           <Link href="/practice-areas" onClick={() => setMobileOpen(false)}>업무분야</Link>
           <Link href="/professionals" onClick={() => setMobileOpen(false)}>구성원</Link>
           <Link href="/news" onClick={() => setMobileOpen(false)}>소식/자료</Link>
+          <Link href="/columns" onClick={() => setMobileOpen(false)}>정훈컬럼</Link>
           <Link href="/locations" onClick={() => setMobileOpen(false)}>오시는 길</Link>
           <Link href="/contact" onClick={() => setMobileOpen(false)}>상담 신청</Link>
         </div>
