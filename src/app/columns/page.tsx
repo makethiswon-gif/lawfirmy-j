@@ -4,7 +4,7 @@ import styles from '../news/page.module.css';
 import { columns } from '@/data/columns';
 
 export const metadata = {
-  title: '정훈컬럼 | 법무법인 양영&정훈',
+  title: '칼럼 | 법무법인 양영&정훈',
   description: '법무법인 정훈 시절부터 쌓아온 전문 법률 칼럼입니다.',
 };
 
@@ -14,9 +14,9 @@ export default function ColumnsPage() {
       <div className={inner.pageHeader}>
         <div className="container">
           <div className={inner.breadcrumb}>
-            <Link href="/">HOME</Link> <span>›</span> <span>정훈컬럼</span>
+            <Link href="/">HOME</Link> <span>›</span> <span>칼럼</span>
           </div>
-          <h1 className={inner.pageTitle}>정훈컬럼</h1>
+          <h1 className={inner.pageTitle}>칼럼</h1>
         </div>
       </div>
       <div className={inner.divider} style={{ margin: 0 }}></div>
@@ -27,7 +27,7 @@ export default function ColumnsPage() {
             {columns.map((item) => (
               <article key={item.id} className={styles.newsItem}>
                 <div className={styles.newsLeft}>
-                  <span className={styles.newsTag}>정훈컬럼</span>
+                  <span className={styles.newsTag}>칼럼</span>
                   <span className={styles.newsDate}>{item.date}</span>
                 </div>
                 <div className={styles.newsRight}>

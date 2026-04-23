@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const column = columns.find(c => c.id === resolvedParams.id);
   if (!column) return { title: '칼럼을 찾을 수 없습니다.' };
   return {
-    title: `${column.title} | 정훈컬럼`,
+    title: `${column.title} | 칼럼`,
     description: column.content.replace(/<[^>]+>/g, '').substring(0, 100),
   };
 }
@@ -32,7 +32,7 @@ export default async function ColumnDetailPage({ params }: { params: Promise<{ i
       <div className={inner.pageHeader}>
         <div className="container">
           <div className={inner.breadcrumb}>
-            <Link href="/">HOME</Link> <span>›</span> <Link href="/columns">정훈컬럼</Link> <span>›</span> <span>{column.title}</span>
+            <Link href="/">HOME</Link> <span>›</span> <Link href="/columns">칼럼</Link> <span>›</span> <span>{column.title}</span>
           </div>
         </div>
       </div>
