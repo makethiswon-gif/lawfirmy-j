@@ -62,19 +62,27 @@
 .lawyerCard {
   border: 1px solid var(--color-border);
   overflow: hidden;
-  transition: all 0.3s ease;
   background: white;
-}
-
-.lawyerCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+  display: block;
 }
 
 .lawyerImg {
   position: relative;
   height: 350px;
   background: var(--color-hanji);
+  overflow: hidden; /* To contain scale */
+}
+
+.innerImg {
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.lawyerCard:hover .innerImg {
+  transform: scale(1.05);
+}
+
+.lawyerCard:hover {
+  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
 }
 
 .lawyerPlaceholder {
@@ -93,7 +101,14 @@
   color: rgba(0,0,0,0.1);
 }
 
-.lawyerInfo { padding: 24px; }
+.lawyerInfo { 
+  padding: 24px; 
+  transition: transform 0.4s ease;
+}
+
+.lawyerCard:hover .lawyerInfo {
+  transform: translateY(-4px);
+}
 
 .lawyerTitle {
   font-size: 0.78rem;

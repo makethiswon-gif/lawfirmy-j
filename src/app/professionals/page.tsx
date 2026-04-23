@@ -3,6 +3,7 @@ import Link from 'next/link';
 import inner from '../inner.module.css';
 import styles from './page.module.css';
 import { lawyers } from '@/data/lawyers';
+import ProfessionalsGrid from './ProfessionalsGrid';
 
 export const metadata = {
   title: '구성원 | 법무법인 양영&정훈',
@@ -42,28 +43,7 @@ export default function ProfessionalsPage() {
       {/* Lawyer Grid */}
       <section className={styles.lawyerSection}>
         <div className="container">
-          <div className={styles.lawyerGrid}>
-            {lawyers.map((lawyer) => (
-              <Link href={`/professionals/${lawyer.id}`} key={lawyer.id} className={styles.lawyerCard}>
-                <div className={styles.lawyerImg}>
-                  {lawyer.image ? (
-                    <Image src={lawyer.image} alt={lawyer.name} fill style={{ objectFit: 'cover', objectPosition: 'top' }} />
-                  ) : (
-                    <div className={styles.lawyerPlaceholder}>
-                      <span>{lawyer.name[0]}</span>
-                    </div>
-                  )}
-                </div>
-                <div className={styles.lawyerInfo}>
-                  <span className={styles.lawyerTitle}>{lawyer.title}</span>
-                  <h3>{lawyer.name}</h3>
-                  <div className={styles.lawyerAreas}>
-                    {lawyer.areas.map((a) => <span key={a}>{a}</span>)}
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <ProfessionalsGrid lawyers={lawyers} />
         </div>
       </section>
     </>
