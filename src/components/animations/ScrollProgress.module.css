@@ -10,7 +10,8 @@
 
 .progressFill {
   height: 100%;
-  background: linear-gradient(90deg, var(--color-vermillion), var(--color-gold));
+  background: linear-gradient(90deg, var(--color-vermillion), #5bc0cd);
   transition: width 0.1s linear;
   will-change: width;
+  border-radius: 0 1px 1px 0;
 }

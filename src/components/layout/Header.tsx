@@ -6,6 +6,68 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 
+const navMenus = [
+  {
+    title: '카라소개',
+    path: '/about',
+    subMenu: [
+      { title: '카라소개', path: '/about' },
+      { title: '변호사소개', path: '/about/lawyer' },
+      { title: '카라의 특별함', path: '/about/special' },
+      { title: '오시는길', path: '/about/location' },
+    ]
+  },
+  {
+    title: '이혼',
+    path: '/divorce',
+    subMenu: [
+      { title: '협의이혼', path: '/divorce' },
+      { title: '재판상이혼', path: '/divorce/litigation' },
+      { title: '재산분할', path: '/divorce/property' },
+      { title: '사실혼', path: '/divorce/common-law' },
+      { title: '국제이혼', path: '/divorce/international' },
+    ]
+  },
+  {
+    title: '상속',
+    path: '/inheritance',
+    subMenu: [
+      { title: '상속재산분할', path: '/inheritance' },
+      { title: '유류분반환', path: '/inheritance/legitime' },
+      { title: '유언', path: '/inheritance/will' },
+      { title: '상속포기', path: '/inheritance/renunciation' },
+      { title: '한정승인', path: '/inheritance/qualified' },
+    ]
+  },
+  {
+    title: '기타 소송',
+    path: '/other',
+    subMenu: [
+      { title: '친권, 양육권', path: '/other' },
+      { title: '양육비', path: '/other/child-support' },
+      { title: '가정폭력', path: '/other/domestic-violence' },
+      { title: '혼인무효, 혼인취소', path: '/other/annulment' },
+      { title: '부정행위에 의한 손해배상', path: '/other/damages' },
+    ]
+  },
+  {
+    title: '승소사례',
+    path: '/success'
+  },
+  {
+    title: '언론보도',
+    path: '/press'
+  },
+  {
+    title: '상담문의',
+    path: '/counsel',
+    subMenu: [
+      { title: '온라인 상담', path: '/counsel' },
+      { title: '자주묻는질문', path: '/counsel' },
+    ]
+  }
+];
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -24,9 +86,10 @@ export default function Header() {
     <header className={cls}>
       <div className={`container ${styles.headerInner}`}>
         <Link href="/" className={styles.logo}>
+          {/* Default dark logo for inner pages, white logo for home header */}
           <Image 
-            src="/images/logo/yangyoung_logo_transparent.png" 
-            alt="법무법인 양영&정훈" 
+            src="/img/logo_kara.png" 
+            alt="법률사무소 카라" 
             width={200} 
             height={56} 
             className={styles.logoImg}
@@ -35,17 +98,31 @@ export default function Header() {
         </Link>
 
         <nav className={styles.nav}>
-          <Link href="/about" className={`${styles.navItem} ${pathname === '/about' ? styles.active : ''}`}>법인소개</Link>
-          <Link href="/practice-areas" className={`${styles.navItem} ${pathname === '/practice-areas' ? styles.active : ''}`}>업무분야</Link>
-          <Link href="/professionals" className={`${styles.navItem} ${pathname === '/professionals' ? styles.active : ''}`}>구성원</Link>
-          <Link href="/news" className={`${styles.navItem} ${pathname === '/news' ? styles.active : ''}`}>소식/자료</Link>
-          <Link href="/columns" className={`${styles.navItem} ${pathname.startsWith('/columns') ? styles.active : ''}`}>칼럼</Link>
-          <Link href="/locations" className={`${styles.navItem} ${pathname === '/locations' ? styles.active : ''}`}>오시는 길</Link>
+          {navMenus.map((menu) => (
+            <div key={menu.path} className={styles.navItemWrapper}>
+              <Link 
+                href={menu.path} 
+                className={`${styles.navItem} ${pathname.startsWith(menu.path) ? styles.active : ''}`}
+              >
+                {menu.title}
+              </Link>
+              
+              {menu.subMenu && (
+                <div className={styles.dropdown}>
+                  {menu.subMenu.map((sub) => (
+                    <Link key={sub.path} href={sub.path} className={styles.dropdownItem}>
+                      {sub.title}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
         </nav>
 
         <div className={styles.headerRight}>
-          <Link href="/contact" className={styles.consultBtn}>상담 신청</Link>
-          <span className={styles.phone}>062-223-7877</span>
+          <Link href="/counsel" className={styles.consultBtn}>상담 신청</Link>
+          <span className={styles.phone}>02-594-2353</span>
         </div>
 
         <button className={styles.mobileToggle} onClick={() => setMobileOpen(!mobileOpen)} aria-label="메뉴">
@@ -55,13 +132,22 @@ export default function Header() {
 
       {mobileOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="/about" onClick={() => setMobileOpen(false)}>법인소개</Link>
-          <Link href="/practice-areas" onClick={() => setMobileOpen(false)}>업무분야</Link>
-          <Link href="/professionals" onClick={() => setMobileOpen(false)}>구성원</Link>
-          <Link href="/news" onClick={() => setMobileOpen(false)}>소식/자료</Link>
-          <Link href="/columns" onClick={() => setMobileOpen(false)}>칼럼</Link>
-          <Link href="/locations" onClick={() => setMobileOpen(false)}>오시는 길</Link>
-          <Link href="/contact" onClick={() => setMobileOpen(false)}>상담 신청</Link>
+          {navMenus.map((menu) => (
+            <div key={menu.path} className={styles.mobileMenuGroup}>
+              <Link href={menu.path} className={styles.mobileMenuMain} onClick={() => setMobileOpen(false)}>
+                {menu.title}
+              </Link>
+              {menu.subMenu && (
+                <div className={styles.mobileSubMenu}>
+                  {menu.subMenu.map((sub) => (
+                    <Link key={sub.path} href={sub.path} onClick={() => setMobileOpen(false)}>
+                      {sub.title}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       )}
     </header>

@@ -1,20 +1,35 @@
 import { MetadataRoute } from 'next';
-import { columns } from '@/data/columns';
-import { lawyers } from '@/data/lawyers';
+
+export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://lawfirmjunghoon.kr';
+  const baseUrl = 'https://www.calla-law.com';
 
   // 정적 라우트
   const routes = [
     '',
     '/about',
-    '/practice-areas',
-    '/professionals',
-    '/news',
-    '/columns',
+    '/about/lawyer',
+    '/about/location',
+    '/about/special',
+    '/divorce',
+    '/divorce/property',
+    '/divorce/litigation',
+    '/divorce/common-law',
+    '/divorce/international',
+    '/inheritance',
+    '/inheritance/legitime',
+    '/inheritance/qualified',
+    '/inheritance/renunciation',
+    '/inheritance/will',
+    '/other',
+    '/other/damages',
+    '/other/annulment',
+    '/other/domestic-violence',
+    '/other/child-support',
+    '/counsel',
     '/contact',
-    '/locations',
+    '/press',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
@@ -22,22 +37,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1 : 0.8,
   }));
 
-  // 칼럼 동적 라우트
-  const columnRoutes = columns.map((column) => ({
-    url: `${baseUrl}/columns/${column.id}`,
-    // 칼럼의 작성일을 lastModified로 사용할 수 있으나, Date 객체로 변환 필요
-    lastModified: new Date(column.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }));
-
-  // 변호사 동적 라우트
-  const lawyerRoutes = lawyers.map((lawyer) => ({
-    url: `${baseUrl}/professionals/${lawyer.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
-  return [...routes, ...lawyerRoutes, ...columnRoutes];
+  return [...routes];
 }

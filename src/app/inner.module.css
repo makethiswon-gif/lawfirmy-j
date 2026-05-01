@@ -1,8 +1,23 @@
 .pageHeader {
-  padding-top: calc(var(--header-height) + 50px);
-  padding-bottom: 50px;
-  background: var(--color-hanji);
+  padding-top: calc(var(--header-height) + 56px);
+  padding-bottom: 56px;
+  background-color: var(--color-ink);
+  background-size: cover;
+  background-position: center;
   position: relative;
+}
+
+.pageHeader::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(15,23,42,0.85) 0%, rgba(15,23,42,0.6) 100%);
+  z-index: 0;
+}
+
+.pageHeader > * {
+  position: relative;
+  z-index: 1;
 }
 
 .pageHeader::after {
@@ -12,29 +27,35 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-vermillion) 0%, var(--color-vermillion) 30%, var(--color-border) 30%);
+  background: linear-gradient(90deg, var(--color-vermillion) 0%, var(--color-vermillion) 20%, transparent 20%);
+  z-index: 1;
 }
 
 .breadcrumb {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 16px;
-  font-size: 0.8rem;
-  color: var(--color-text-muted);
+  margin-bottom: 14px;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.02em;
 }
 
-.breadcrumb a:hover { color: var(--color-vermillion); opacity: 1; }
+.breadcrumb a:hover { color: white; opacity: 1; }
 
 .pageTitle {
   font-family: var(--font-serif);
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  color: var(--color-ink);
-  letter-spacing: -0.5px;
+  color: white;
+  letter-spacing: -0.02em;
 }
 
 .pageContent {
-  padding: 70px 0;
+  padding: 80px 0;
   background: var(--color-warm-white);
+}
+
+.divider {
+  display: none;
 }

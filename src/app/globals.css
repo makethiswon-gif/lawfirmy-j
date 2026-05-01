@@ -1,42 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* ===== 광주(빛고을) 브랜딩 컬러 팔레트 ===== */
-  /* 먹(墨) - 캘리그래피 로고에서 추출 */
-  --color-ink: #2a2723;
-  --color-ink-light: #4a4640;
+  /* ===== 카라 법률사무소 브랜드 컬러 (리뉴얼) ===== */
+  --color-ink: #0f172a;
+  --color-ink-light: #1e293b;
 
-  /* 주홍(朱紅) - 낙관 도장에서 추출 */
-  --color-vermillion: #c23b22;
-  --color-vermillion-muted: #a8462e;
+  --color-vermillion: #3d9fad;
+  --color-vermillion-muted: #2d7a85;
+  --color-vermillion-light: rgba(61, 159, 173, 0.08);
 
-  /* 빛고을 - 따뜻한 빛의 골드 */
-  --color-light-gold: #c9a14e;
-  --color-light-warm: #e8d5a3;
+  --color-light-gold: #7ca1a4;
+  --color-light-warm: #f0ece4;
 
-  /* 무등산 - 깊은 자연의 녹색 */
-  --color-forest: #3a5a40;
-  --color-forest-light: #588157;
+  --color-forest: #3d9fad;
+  --color-forest-light: #7ca1a4;
 
-  /* 한지(韓紙) - 따뜻한 배경 */
-  --color-hanji: #f7f3ec;
-  --color-hanji-deep: #ede6d8;
-  --color-warm-white: #faf9f6;
+  --color-hanji: #f8f9fb;
+  --color-hanji-deep: #f1f3f5;
+  --color-warm-white: #fafbfc;
 
-  /* 텍스트 */
-  --color-text: #333;
-  --color-text-light: #666;
-  --color-text-muted: #999;
-  --color-white: #fff;
-  --color-border: #e0ddd6;
+  --color-text: #334155;
+  --color-text-light: #64748b;
+  --color-text-muted: #94a3b8;
+  --color-white: #ffffff;
+  --color-border: #e2e8f0;
 
   /* 타이포그래피 */
-  --font-sans: 'Noto Sans KR', -apple-system, sans-serif;
+  --font-sans: 'Pretendard Variable', 'Pretendard', -apple-system, 'Noto Sans KR', sans-serif;
   --font-serif: 'Noto Serif KR', Georgia, serif;
 
   /* 레이아웃 */
-  --header-height: 80px;
+  --header-height: 72px;
   --max-width: 1200px;
+
+  /* 그림자 */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.06);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.08);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.1);
+
+  /* 라운드 */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
 }
 
 *, *::before, *::after {
@@ -47,26 +55,31 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background-color: var(--color-warm-white);
-  line-height: 1.7;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  line-height: 1.4;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
 }
 
 img { max-width: 100%; height: auto; display: block; }
@@ -95,4 +108,149 @@ input, select, textarea { font-family: var(--font-sans); outline: none; }
 @keyframes slideInLeft {
   from { opacity: 0; transform: translateX(-40px); }
   to { opacity: 1; transform: translateX(0); }
+}
+
+/* =========================================
+   Responsive Global Rules
+   ========================================= */
+
+div[style*="minHeight: '100vh'"] img,
+div[style*="minHeight:'100vh'"] img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.board-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.board-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+
+@media (max-width: 1024px) {
+  .board-grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .board-grid-4 { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .board-grid-3 { grid-template-columns: 1fr; gap: 20px; }
+  .board-grid-4 { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+  div[style*="paddingTop: '100px'"], div[style*="paddingTop:'100px'"] { padding-top: 80px !important; }
+  .container { padding: 0 20px !important; }
+}
+
+@media (max-width: 480px) {
+  .board-grid-4 { grid-template-columns: 1fr; }
+}
+
+.counsel-form { padding: 50px; }
+@media (max-width: 600px) { .counsel-form { padding: 20px; } }
+
+/* =========================================
+   Scraped Subpage Layout Fixes
+   ========================================= */
+
+/* Hide redundant titles from original PHP site */
+#sub_nav, #container_title, .sub-contentwr > .common-tit { display: none !important; }
+
+/* Center the main container */
+#container, .sub-contentwr, .sub-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Fix Lawyer Profile layout */
+.lawyer-con {
+  display: flex;
+  gap: 50px !important;
+  padding: 40px 0;
+  align-items: center !important;
+}
+
+.lawyer-img {
+  flex: 0 0 400px !important;
+  max-width: 400px;
+}
+
+.lawyer-career {
+  flex: 1;
+}
+
+.career ul {
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.career ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.career-tit {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.lawyer-name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 15px;
+}
+
+.lawyer-name span {
+  font-size: 20px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Lawyer Swiper cards fix */
+.swiper-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.swiper-slide {
+  width: 350px !important;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+}
+
+.swiper-slide img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.swiper-slide .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.swiper-slide .description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .lawyer-con { flex-direction: column; text-align: center; padding: 20px; }
+  .lawyer-img { flex: auto !important; max-width: 100%; margin: 0 auto; }
+  .swiper-slide { width: 100% !important; }
+}
+
+/* Ensure scraped images are centered if smaller than container */
+#container img, .sub-contentwr img {
+  display: block;
+  margin: 0 auto;
 }
